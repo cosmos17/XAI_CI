@@ -9,17 +9,17 @@
 
 ## 목차
 
-1. [변수 중요도 FI](#-1>-변수-중요도-fi)
+1. [변수 중요도 FI](#1-변수-중요도-fi)
 
-    1-1. [상관계수 Correlation](#-1-1>-상관계수-correlation)
+    1-1. [상관계수 Correlation](#1-1-상관계수-correlation)
 
-    1-2. [회귀 계수 Linear Regression Coefficient](#-1-2>-회귀-계수-linear-regression-coefficient)
+    1-2. [회귀 계수 Linear Regression Coefficient](#1-2-회귀-계수-linear-regression-coefficient)
 
-    1-3. [평균 불순도 감소량 Mean Decrease Impurity](#1-3>-평균-불순도-감소량-mean-decrease-impurity)
+    1-3. [평균 불순도 감소량 Mean Decrease Impurity](#1-3-평균-불순도-감소량-mean-decrease-impurity)
 
-    1-4. [순열 변수 중요도 Permutation Feature Importance](#-1-4>-순열-변수-중요도-permutation-feature-importance)
+    1-4. [순열 변수 중요도 Permutation Feature Importance](#1-4-순열-변수-중요도-permutation-feature-importance)
 
-    1-5. [부분 의존도 Partial Dependence](#-1-5>-부분-의존도-partial-dependence)
+    1-5. [부분 의존도 Partial Dependence](#1-5-부분-의존도-partial-dependence)
 
 2. [SHAP](#2-shap)
 
