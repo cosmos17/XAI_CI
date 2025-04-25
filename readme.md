@@ -1,12 +1,28 @@
 # XAI eXplainable Artificial Intelligence
 ## 설명 가능한 AI
 
-* 해석 가능성의 측면에서 머신러닝 모델($RF,\,\,SVM,\,\,XGB$ 등)은 회귀 계수를 갖는 선형모형(선형회귀, 로지스틱회귀)에 비해
-<br>입력 변수가 예측 결과를 만들어 내는데 어떤 역할을 하는지 이해하기 어렵다.
+* 해석 가능성의 측면에서 머신러닝 모델($RF,\,\,SVM,\,\,XGB$ 등)은 회귀 계수를 갖는 선형모형(선형회귀, 로지스틱회귀)에 비해 입력 변수가 예측 결과를 만들어 내는데 어떤 역할을 하는지 이해하기 어렵다.
 * 여기서 소개할 다양한 방법을 통해 머신러닝 모델에서 입력 변수들이 어떤 영향력을 갖는지 알 수 있다.
 <br><br>
 * 다만, XAI 기법은 현상에 대한 모형의 예측을 설명하기 위한 것이지, 현상 자체를 설명하기 위한 것이 아니다.
 * 즉, 어디까지나 **_X1이 증가할수록 Y도 증가한다_** 는 **상관 관계**를 나타낼 뿐, 이유를 설명하는 **인과 관계**까지 포함하는 것은 아니다.
+
+## 목차
+
+1. [변수 중요도 FI](##-1>-변수-중요도-FI)
+
+    1-1. [상관계수 Correlation](###-1-1>-상관계수-Correlation)
+
+    1-2. [회귀 계수 Linear Regression Coefficient](###-1-2>-회귀-계수-Linear-Regression-Coefficient)
+
+    1-3. [평균 불순도 감소량 Mean Decrease Impurity](###1-3>-평균-불순도-감소량-Mean-Decrease-Impurity)
+
+    1-4. [순열 변수 중요도 Peamutation Feature Importance](###-1-4>-순열-변수-중요도-Peamutation-Feature-Importance)
+
+    1-5. [부분 의존도 Partial Dependence](###-1-5>-부분-의존도-Partial-Dependence)
+
+2. [SHAP](##2-SHAP)
+
 
 ---
 ---
