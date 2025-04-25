@@ -65,6 +65,12 @@ $$
 그래프 해석
 * **LSTAT, RM, PTRATIO, INDUS, ZN** 순으로 강한 상관 관계를 갖는다.
 
+<p align="right">
+    <a href=#xai-explainable-artificial-intelligence>
+        <strong>Top 🔝</strong>
+    </a>
+</p>
+
 ---
 
 ### 1-2> 회귀 계수 Linear Regression Coefficient
@@ -87,6 +93,12 @@ $$
 
 그래프 해석
 * **LSTAT, RM, DIS, CRIM, PTRATIO** 순으로 큰 회귀 계수를 갖는다.
+
+<p align="right">
+    <a href=#xai-explainable-artificial-intelligence>
+        <strong>Top 🔝</strong>
+    </a>
+</p>
 
 ---
 
@@ -114,6 +126,12 @@ $$
 * **LSTAT, TAX, PTRATIO, DIS, NOX** 순으로 불순도가 높다.
 * 범주형 변수인 **CHAS**와 **RAD**를 다시 합쳤을 때도 변수 중요도 순위에 큰 변화가 없다.
 
+<p align="right">
+    <a href=#xai-explainable-artificial-intelligence>
+        <strong>Top 🔝</strong>
+    </a>
+</p>
+
 ---
 
 ### 1-4> 순열 변수 중요도 Permutation Feature Importance
@@ -132,6 +150,12 @@ $$
 * **LSTAT**은 그래프에서 가장 오른쪽으로 길게 분포한다. 즉, 모델이 LSTAT에 크게 영향을 받는다.
 * **DIS**는 그래프에서 두 번째로 큰 값들로 분포한다. 다만, whisker(IQR 이상치 범위)가 길기 때문에 중요도가 불안정하다.
 * **AGE**는 KDE 밀도가 낮지만 분포가 좁다. 또한 위에서 4번째이므로 평균적으로 영향력이 있다.
+
+<p align="right">
+    <a href=#xai-explainable-artificial-intelligence>
+        <strong>Top 🔝</strong>
+    </a>
+</p>
 
 ---
 
@@ -157,6 +181,12 @@ $$
     - 즉, 약간의 데이터 변화에도 예측값을 민감하게 변화시킬 수 있다.
 
 * **PTRATIO**는 [15, 20) 구간에서는 예측값 변화에 그다지 기여하지 못하지만, 전후로는 크게 변화시킨다.
+
+<p align="right">
+    <a href=#xai-explainable-artificial-intelligence>
+        <strong>Top 🔝</strong>
+    </a>
+</p>
 
 ---
 ---
