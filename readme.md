@@ -235,7 +235,8 @@ $$
 * $i$ : 관심 있는 변수 집합
 * $F$ : 전체 변수의 부분 집합
 
-[공식문서 shap.readthedocs.io](https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html)
+<!-- [공식문서 shap.readthedocs.io](){:target="_blank"} -->
+<a herf="https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html" target="_blank">공식문서 shap.readthedocs.io</a>
 
 ``` python
 model_rf = RandomForestRegressor(max_depth=5, n_estimators=20, random_state=42)
@@ -332,7 +333,9 @@ interaction_index = approximate_interactions(main_feature_index, shap_values, X)
 3. 분할된 구간별로 ```abs(corrcoef)``` 계산, 결측치도 포함
 4. 모든 feature에 대해 결과값이 가장 큰(상호작용이 강한) feature 선택
 
-[github.com/shap/shap/blob/master/shap/utils/_general.py](https://github.com/shap/shap/blob/master/shap/utils/_general.py#L109)
+<!-- [github.com/shap/shap/blob/master/shap/utils/_general.py](https://github.com/shap/shap/blob/master/shap/utils/_general.py#L109) -->
+
+<a herf="https://github.com/shap/shap/blob/master/shap/utils/_general.py#L109" target="_blank">github.com/shap/shap/blob/master/shap/utils/_general.py</a>
 
 ![dependence](./md_img/XAI_dependence.png)
 
@@ -436,7 +439,9 @@ model_rf.predict(X).mean() + shap_values_rf[15, X.columns.get_loc('LSTAT')].valu
 
 ![force2](./md_img/XAI_force2.jpg)
 
-[👉 View Force Plot](https://cosmos17.github.io/xai/force_plot2.html)
+<!-- [👉 View Force Plot](https://cosmos17.github.io/xai/force_plot2.html) -->
+<a href="https://cosmos17.github.io/xai/force_plot2.html" target="_blank">👉 View Force Plot</a>
+
 
 <p align="right">
     <a href=#xai-explainable-artificial-intelligence>
