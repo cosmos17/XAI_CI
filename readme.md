@@ -29,11 +29,11 @@
 
     2-3. [의존도 플롯 shap.dependence_plot](#2-3-의존도-플롯-shapdependence_plot)
 
-    [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;교호작용](#교호작용)
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[교호작용](#교호작용)
 
-    [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shap.dependence_plot 에서 자동으로 교호작용 feature 선택하는 방법](#shapdependence_plot-에서-자동으로-교호작용-feature-선택하는-방법)
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[shap.dependence_plot 에서 자동으로 교호작용 feature 선택하는 방법](#shapdependence_plot-에서-자동으로-교호작용-feature-선택하는-방법)
 
-    [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;번외)선형모델에서의 교호작용과 비교](#번외-선형모델에서의-교호작용과-비교)
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[번외)선형모델에서의 교호작용과 비교](#번외-선형모델에서의-교호작용과-비교)
 
     2-4. [부분 의존도 플롯 shap.partial_dependence_plot](#2-4-부분-의존도-플롯-shappartial_dependence_plot-shapplotspartial_dependence)
 
