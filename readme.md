@@ -236,7 +236,7 @@ $$
 * $F$ : 전체 변수의 부분 집합
 
 <!-- [공식문서 shap.readthedocs.io](){:target="_blank"} -->
-<a herf="https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html" target="_blank">공식문서 shap.readthedocs.io</a>
+<a href="https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html" target="_blank">공식문서 shap.readthedocs.io</a>
 
 ``` python
 model_rf = RandomForestRegressor(max_depth=5, n_estimators=20, random_state=42)
@@ -335,7 +335,7 @@ interaction_index = approximate_interactions(main_feature_index, shap_values, X)
 
 <!-- [github.com/shap/shap/blob/master/shap/utils/_general.py](https://github.com/shap/shap/blob/master/shap/utils/_general.py#L109) -->
 
-<a herf="https://github.com/shap/shap/blob/master/shap/utils/_general.py#L109" target="_blank">github.com/shap/shap/blob/master/shap/utils/_general.py</a>
+<a href="https://github.com/shap/shap/blob/master/shap/utils/_general.py#L109" target="_blank">github.com/shap/shap/blob/master/shap/utils/_general.py</a>
 
 ![dependence](./md_img/XAI_dependence.png)
 
